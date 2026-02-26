@@ -1,0 +1,20 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Ruby temp files
+*.gem
+*.rbc
+.bundle/
+.config
+.yardoc
+_yardoc/
+doc/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo

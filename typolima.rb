@@ -10,7 +10,7 @@ class Typolima < Formula
 
   if Hardware::CPU.intel?
     url "https://github.com/heptau/typolima/releases/download/v1.0.0/typolima-1.0.0-darwin-amd64.tar.gz"
-    sha256 "8c2969ca7c1fb3701c19b58cf2bea1d437bf500e506b1b5d207a725ad05728b1"
+    sha256 "e346fce5c9c2f41070a5fb908a39314c317772f3c5e2baa867f6ecca65833339"
 
     define_method(:install) do
       # We ignore the go-dummy and install the real python one
@@ -19,7 +19,7 @@ class Typolima < Formula
   end
   if Hardware::CPU.arm?
     url "https://github.com/heptau/typolima/releases/download/v1.0.0/typolima-1.0.0-darwin-arm64.tar.gz"
-    sha256 "aa583ba3c6a9c0316dce52aef8ad91a1ffad5531535b410741fd4016c0611daa"
+    sha256 "bfc078bd7ac290c398d3fe2b1a7c1386ac315dad1aa844c7ea1eaba00c0a4712"
 
     define_method(:install) do
       # We ignore the go-dummy and install the real python one

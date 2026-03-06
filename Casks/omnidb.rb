@@ -19,6 +19,14 @@ cask "omnidb" do
 
   app "OmniDB.app"
 
+  postflight do
+    set_permissions "#{appdir}/OmniDB.app", '755'
+
+    system_command "/usr/bin/xattr",
+                   args:  ["-r", "-d", "com.apple.quarantine", "#{appdir}/OmniDB.app"],
+                   sudo:  false
+  end
+
   zap trash: [
     "~/Library/Application Support/OmniDB",
     "~/Library/Preferences/com.omnidb.*",

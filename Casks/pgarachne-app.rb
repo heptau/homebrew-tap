@@ -15,4 +15,22 @@ cask "pgarachne-app" do
   end
 
   app "PgArachne.app"
+
+  postflight do
+    app_path = "#{appdir}/PgArachne.app"
+
+    if File.exist?(app_path)
+      system_command "/usr/bin/xattr",
+                     args:  ["-r", "-d", "com.apple.quarantine", app_path],
+                     print_stderr: false
+    end
+  end
+
+  zap trash: [
+    "~/Library/Application Support/PgArachne",
+    "~/Library/Preferences/com.pgarachne.*",
+    "~/Library/Caches/PgArachne",
+    "~/Library/Saved Application State/com.pgarachne.savedState",
+    "~/Library/Logs/PgArachne",
+  ]
 end

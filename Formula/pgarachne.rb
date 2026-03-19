@@ -1,26 +1,26 @@
 class Pgarachne < Formula
   desc "High-performance PostgreSQL JSON-RPC gateway with SSE support"
   homepage "https://www.pgarachne.com/"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-darwin-arm64.zip"
-      sha256 "0e526234bf88faca4e23f9fabdd9c9ab1f1b1af3aaee1ee037899f7e254141f0"
+      sha256 "ce896d81b1a552d1360be1ce4cd2b77cf28b25e45e963c07b511e341ed2d1e10"
     else
       url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-darwin-amd64.zip"
-      sha256 "e3e66f2982722ec3aa861a3f328421777b42e126d86b2f149204fbdeef26c934"
+      sha256 "20a6c44bb15ebb81508b8a6640126df8c09b6694e893fd401a583da41a50d84e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-linux-arm64.tar.gz"
-      sha256 "c43ad37f9867715d5a9357e3dc0ca0bbba98b988cdbe9cfe6f2247fe7d85607d"
+      sha256 "d9951bc739f39589b2f49d39441b728e7b1aeaf4bcde35f6cf188d8cf3ff1159"
     else
       url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-linux-amd64.tar.gz"
-      sha256 "b171216aab57ba73299f6b28da4d624a60ce9317dde7a3c21d8888c4e917655d"
+      sha256 "3e2f96598c8b6d257fe7ecfd875282fc1359fe69de2a25522105f0f11b708f05"
     end
   end
 

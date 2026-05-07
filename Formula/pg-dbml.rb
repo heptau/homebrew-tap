@@ -1,9 +1,9 @@
 class PgDbml < Formula
   desc "Pure SQL exporter from PostgreSQL to DBML"
   homepage "https://github.com/heptau/pg_dbml"
-  url "https://github.com/heptau/pg_dbml/releases/download/v1.0.1/pg_dbml-1.0.1.tar.gz"
-  sha256 "720e1e5db8297a5e980978348f2f7dbd4f7fd2b9e2cb8e8c69e1cc40597bb454"
-  version "1.0.1"
+  url "https://github.com/heptau/pg_dbml/releases/download/v1.0.2/pg_dbml-1.0.2.tar.gz"
+  sha256 "2ebe7455838e47adfc3a3533230639296d6e5062d70eeb66f87af7783bb0a059"
+  version "1.0.2"
 
   depends_on "libpq"
 

@@ -5,12 +5,12 @@
 class Typolima < Formula
   desc "Conservative typographic fixer for HTML, PHP and text"
   homepage "https://github.com/heptau/typolima"
-  version "1.2.4"
+  version "1.2.5"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/heptau/typolima/releases/download/v1.2.4/typolima-1.2.4-darwin-amd64.tar.gz"
-    sha256 "4277d9befaa0b5cd9673cc96a5d2ea824fe8ef0497c5a18580ab80e6811d9a9c"
+    url "https://github.com/heptau/typolima/releases/download/v1.2.5/typolima-1.2.5-darwin-amd64.tar.gz"
+    sha256 "aa6641b4db73b954befd8f3409e9816552dbea1d8ee5c3b9ced90c35aad3537e"
 
     define_method(:install) do
       # We ignore the go-dummy and install the real python one
@@ -18,8 +18,8 @@ class Typolima < Formula
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/heptau/typolima/releases/download/v1.2.4/typolima-1.2.4-darwin-arm64.tar.gz"
-    sha256 "08c048d388338b48521a4ab9c29a7170e0b961f766b9179fbfebe907ee098804"
+    url "https://github.com/heptau/typolima/releases/download/v1.2.5/typolima-1.2.5-darwin-arm64.tar.gz"
+    sha256 "73a303b8d5e808e42396dca430368df82c6fb092c28f2de4a6467c8c4d8098c6"
 
     define_method(:install) do
       # We ignore the go-dummy and install the real python one

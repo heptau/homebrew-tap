@@ -1,26 +1,26 @@
 class PgAtropos < Formula
   desc "PostgreSQL custom-format dump splitter for GIT"
   homepage "https://github.com/heptau/pg_atropos"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/heptau/pg_atropos/releases/download/v1.0.0/pg_atropos-1.0.0-darwin-arm64.tar.gz"
-      sha256 "6731c9c50491ca9ec58c23f38d277053fb413797bc03b3613cee795ec883eb88"
+      url "https://github.com/heptau/pg_atropos/releases/download/v1.1.0/pg_atropos-1.1.0-darwin-arm64.tar.gz"
+      sha256 "f434e98495f65d7633eb43d62ca7b0dfc44b12d77d8edff8cb040e3d7373f0cd"
     else
-      url "https://github.com/heptau/pg_atropos/releases/download/v1.0.0/pg_atropos-1.0.0-darwin-amd64.tar.gz"
-      sha256 "3e3c0cf44073e7d4e3944af5b193cfb91d9f8643a73366517ce2b0dd5e14b298"
+      url "https://github.com/heptau/pg_atropos/releases/download/v1.1.0/pg_atropos-1.1.0-darwin-amd64.tar.gz"
+      sha256 "a46d5e5b6085b89acb5f98841ecf45bb34f27f028d8f769cb7eba63f8f79a8af"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/heptau/pg_atropos/releases/download/v1.0.0/pg_atropos-1.0.0-linux-arm64.tar.gz"
-      sha256 "227be463e20806073a032801b94d03b3e64ac5e05c4d7198f259bdfdb50606f2"
+      url "https://github.com/heptau/pg_atropos/releases/download/v1.1.0/pg_atropos-1.1.0-linux-arm64.tar.gz"
+      sha256 "e08dd5e63a7e466606860baa4aa469c7c671239676886b1866c1f3fde4496244"
     else
-      url "https://github.com/heptau/pg_atropos/releases/download/v1.0.0/pg_atropos-1.0.0-linux-amd64.tar.gz"
-      sha256 "5abee67b4309d3975a925e73610d28dceeadc13571c7da08c3ed872379365798"
+      url "https://github.com/heptau/pg_atropos/releases/download/v1.1.0/pg_atropos-1.1.0-linux-amd64.tar.gz"
+      sha256 "be64cb8cb0faa3cc3495bfed459c7722f354a1a5b5c7b33bf684d78b7505aa6c"
     end
   end
 

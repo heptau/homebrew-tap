@@ -1,8 +1,8 @@
 cask "omnidb" do
-  version "3.2.1"
+  version "3.2.2"
 
   on_arm do
-    sha256 "770f4d4335a646d3633cfba57ac8d8379da6b409259ecfdf571635c697727c6d"
+    sha256 "483afb197599588c6ad9bce49ebde2342bf3bf0a0aa441d858e80b94fc7c1902"
     url "https://github.com/heptau/omnidb/releases/download/v#{version}/OmniDB-#{version}-macOS-osx-arm64.zip"
   end
 
@@ -10,7 +10,7 @@ cask "omnidb" do
   desc "Revived open-source database management tool (PostgreSQL-focused, NW.js-based)"
   homepage "https://github.com/heptau/omnidb"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "OmniDB.app"
 

@@ -1,17 +1,17 @@
 cask "pgarachne-app" do
-  version "2.0.1"
+  version "2.0.2"
   name "PgArachne"
   desc "GUI wrapper for PgArachne"
   homepage "https://www.pgarachne.com/"
 
   on_arm do
     url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-macos-arm64-app.zip"
-    sha256 "90fdc549feaed3eaaf769caac8535a9c3a95499ddfce176ee1b04368190af2a4"
+    sha256 "b800d2293d3eca7a28b04f7ca72925a768949bc991665026c5b0004f7fb156e6"
   end
 
   on_intel do
     url "https://github.com/heptau/pgarachne/releases/download/v#{version}/pgarachne-macos-amd64-app.zip"
-    sha256 "329d3239ab3307c08fa4dde020d0f652d00cb1a8e5becdd919558ade26bd3b38"
+    sha256 "d573e565b814058236e1b05a33593241a8d4e30c6039bc9f31a03cbcceb2bf4a"
   end
 
   app "PgArachne.app"

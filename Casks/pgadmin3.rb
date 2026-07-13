@@ -5,10 +5,10 @@ cask "pgadmin3" do
   homepage "https://github.com/heptau/pgadmin3"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   url "https://github.com/heptau/pgadmin3/releases/download/v#{version}/pgAdmin3-#{version}-macos-arm64.zip"
-  sha256 "c0f6fa4c19931cd269d5f746431cb221e4791bc5f9ada00cf92404ae9cda2660"
+  sha256 "46b44b08ed10130ea0580f7feeead9bb48118efffc516fb58ad300889349539f"
 
   app "pgAdmin III.app"
 

@@ -1,5 +1,5 @@
 cask "pgadmin3" do
-  version "2026.07.21"
+  version "2026.08.07"
   name "pgAdmin III"
   desc "Native PostgreSQL administration GUI (community fork of pgAdmin III)"
   homepage "https://github.com/heptau/pgadmin3"
@@ -8,7 +8,7 @@ cask "pgadmin3" do
   depends_on macos: :monterey
 
   url "https://github.com/heptau/pgadmin3/releases/download/v#{version}/pgAdmin3-#{version}-macos-arm64.zip"
-  sha256 "a1827338f06beb94e38933270e90d95e7e2d08da48198d0f8a5fcdce8ae7a590"
+  sha256 "14df39b328f6c2d75a549ee505463159c556e1e0922fa6c27659cd3e6bc9c6ab"
 
   app "pgAdmin III.app"
 

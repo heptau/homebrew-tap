@@ -1,13 +1,13 @@
 cask "omnidb" do
-  version "5.4.2"
+  version "5.4.3"
 
   on_arm do
-    sha256 "3729aee15f43e7c8295bce0f89ad1a77462152fbed80f25ef395a6f0f4f774a2"
+    sha256 "9b7f00be68ba9657412f1e48e32515305c99ab8700fdef678c6093a190c64bba"
 
     url "https://github.com/heptau/omnidb/releases/download/v#{version}/OmniDB-macOS-osx-arm64.zip"
   end
   on_intel do
-    sha256 "ac5ac3bbbeed519a8eb6e7cb821577319dc34d0c4bdb5e0493d00a3c3fa6dbee"
+    sha256 "e11a4457f927b8d7b4af0256c2b79de94a364bcfc3278721fbd8bdd3925e51d1"
 
     url "https://github.com/heptau/omnidb/releases/download/v#{version}/OmniDB-macOS-osx-x64.zip"
   end

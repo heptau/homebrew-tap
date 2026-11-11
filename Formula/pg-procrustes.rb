@@ -1,24 +1,24 @@
 class PgProcrustes < Formula
   desc "Fast, flexible PostgreSQL SQL formatter"
   homepage "https://github.com/heptau/pg_procrustes"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/heptau/pg_procrustes/releases/download/v0.5.0/pg_procrustes-0.5.0-darwin-arm64.tar.gz"
-      sha256 "d0323164ffa6c372949410e506b7fd9176c3b4c8c4ad4c6713321633041a42c1"
+      url "https://github.com/heptau/pg_procrustes/releases/download/v0.6.0/pg_procrustes-0.6.0-darwin-arm64.tar.gz"
+      sha256 "44270cec624bb01eb64231e55ee0e204fa6bcd1028790f83d8ecc73336c31f5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/heptau/pg_procrustes/releases/download/v0.5.0/pg_procrustes-0.5.0-linux-arm64.tar.gz"
-      sha256 "1cd63189e7213a63725469a11b9c91a30a3a4582d77d87b23b8caddff691a333"
+      url "https://github.com/heptau/pg_procrustes/releases/download/v0.6.0/pg_procrustes-0.6.0-linux-arm64.tar.gz"
+      sha256 "f8ce55b03fae73aff4ac3f803bbe272be1a7c7ad829921f9f23604d1ea04aaca"
     end
     on_intel do
-      url "https://github.com/heptau/pg_procrustes/releases/download/v0.5.0/pg_procrustes-0.5.0-linux-amd64.tar.gz"
-      sha256 "29c3073d6027c88615a24f3aada76c519f4717ffd1cb44b7162dd9c405171f78"
+      url "https://github.com/heptau/pg_procrustes/releases/download/v0.6.0/pg_procrustes-0.6.0-linux-amd64.tar.gz"
+      sha256 "693753f5e7567d56970751518812e4fe3a4fdd92a77973b40e2cbfda50175264"
     end
   end
 
